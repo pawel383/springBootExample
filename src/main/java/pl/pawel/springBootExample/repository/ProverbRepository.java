@@ -7,7 +7,7 @@ import pl.pawel.springBootExample.domain.Proverb;
 /**
  * Created by pawel on 18.01.2017.
  */
-public interface ProverbRepository extends CrudRepository<Proverb, Long>  {
+public interface ProverbRepository extends CrudRepository<Proverb, Long> {
 }
 
 

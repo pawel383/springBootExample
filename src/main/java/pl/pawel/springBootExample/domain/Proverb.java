@@ -12,11 +12,11 @@ import javax.persistence.Id;
 @Entity
 public class Proverb {
 
+    String quote;
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private int no;
-    String quote;
 
     public int getNo() {
         return no;
