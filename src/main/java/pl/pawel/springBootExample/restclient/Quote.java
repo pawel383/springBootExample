@@ -1,4 +1,4 @@
-package pl.pawel.springBootExample.hello;
+package pl.pawel.springBootExample.restclient;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

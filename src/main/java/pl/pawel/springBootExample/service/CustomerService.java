@@ -1,4 +1,4 @@
-package pl.pawel.springBootExample.controler;
+package pl.pawel.springBootExample.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -6,9 +6,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import pl.pawel.springBootExample.entity.Customer;
+import pl.pawel.springBootExample.domain.Customer;
 import pl.pawel.springBootExample.repository.CustomerRepository;
-import pl.pawel.springBootExample.repository.UserCreate;
+import pl.pawel.springBootExample.usecase.UserCreate;
 
 import java.util.Collection;
 
@@ -17,7 +17,7 @@ import java.util.Collection;
  */
 @RestController
 @RequestMapping("/all")
-public class CustomerRestControler {
+public class CustomerService {
 
     @Autowired
     CustomerRepository repository;

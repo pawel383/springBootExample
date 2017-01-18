@@ -1,4 +1,4 @@
-package pl.pawel.springBootExample.entity.quote;
+package pl.pawel.springBootExample.domain;
 
 /**
  * Created by pawel on 18.01.2017.

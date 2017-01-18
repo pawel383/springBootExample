@@ -7,12 +7,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
-import pl.pawel.springBootExample.entity.Customer;
-import pl.pawel.springBootExample.entity.quote.Proverb;
-import pl.pawel.springBootExample.hello.Quote;
+import pl.pawel.springBootExample.domain.Customer;
+import pl.pawel.springBootExample.domain.Proverb;
+import pl.pawel.springBootExample.restclient.Quote;
 import pl.pawel.springBootExample.repository.CustomerRepository;
 import pl.pawel.springBootExample.repository.ProverbRepository;
-import pl.pawel.springBootExample.repository.UserCreate;
+import pl.pawel.springBootExample.usecase.UserCreate;
 
 
 @SpringBootApplication(scanBasePackages = {"pl.pawel"})

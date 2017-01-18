@@ -1,11 +1,13 @@
 // tag::sample[]
-package pl.pawel.springBootExample.entity;
+package pl.pawel.springBootExample.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-
+/**
+ * Spring Data JPA repository for the Customer entity.
+ */
 @Entity
 public class Customer {
 

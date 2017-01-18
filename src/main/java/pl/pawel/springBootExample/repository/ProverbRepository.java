@@ -1,8 +1,7 @@
 package pl.pawel.springBootExample.repository;
 
 import org.springframework.data.repository.CrudRepository;
-import pl.pawel.springBootExample.entity.Customer;
-import pl.pawel.springBootExample.entity.quote.Proverb;
+import pl.pawel.springBootExample.domain.Proverb;
 
 
 /**

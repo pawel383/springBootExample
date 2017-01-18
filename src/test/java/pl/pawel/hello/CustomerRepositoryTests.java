@@ -26,7 +26,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.test.context.junit4.SpringRunner;
-import pl.pawel.springBootExample.entity.Customer;
+import pl.pawel.springBootExample.domain.Customer;
 import pl.pawel.springBootExample.repository.CustomerRepository;
 
 @RunWith(SpringRunner.class)

@@ -1,8 +1,9 @@
-package pl.pawel.springBootExample.repository;
+package pl.pawel.springBootExample.usecase;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import pl.pawel.springBootExample.entity.Customer;
+import pl.pawel.springBootExample.domain.Customer;
+import pl.pawel.springBootExample.repository.CustomerRepository;
 
 /**
  * Created by pawel on 15.01.2017.

@@ -1,4 +1,4 @@
-package pl.pawel.springBootExample.app;
+package pl.pawel.springBootExample.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
